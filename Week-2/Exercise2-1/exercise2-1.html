@@ -10,17 +10,18 @@
 
 <body>
   <header>
-    <h2>Lorem Ipsum</h2><br>
-    <h3>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    <h2>Lorem Ipsum</h2>
+    <h3>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
         "There is no one who loves pain itself, who seeks after it and wants to have it, 
         simply because it is pain..."
     </h3>
   </header>
   <main>
+    <div id="main-artical">
     <article>
       <h3>What is Lorem Ipsum?</h3>
       <p>
-        <img src="lorem.jpg" class="Lorem">
+        <img src="lorem.jpg" class="lorem"><br>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -55,6 +56,7 @@
         dolor sit amet..", comes from a line in section 1.10.32.
       </p>
     </article>
+  </div>
     <footer>
       <p>Author:- Yash Ikhankar<br>
       <a href="yashikhankar@gmail.com">yashikhankar@gmail.com</a></p>
@@ -63,11 +65,12 @@
 
   </main>
   <form action="thank.html">
-    First Name:- <input type="text" name="fname"><br><br>
-    Last Name:- <input type="text" name="lname"><br><br>
+    First Name:- <input type="text" name="fname" minlength="4" maxlength="8" required/><br><br>
+    Last Name:- <input type="text" name="lname"  minlength="4" maxlength="8" required/><br><br>
+    Date of birth:-<input type="date" name="dof" max="2021-12-31" min="1990-12-31" required/><br><br>
     Email:- <input type="email" name="email"><br><br>
-    Phone No:-<input type="number" name="phone"><br><br>
-    <input type="submit">
+    Phone No:-<input type="tel" name="phone" ><br><br>
+    <input type="submit" class="submit">
   </form>
   
 </body>

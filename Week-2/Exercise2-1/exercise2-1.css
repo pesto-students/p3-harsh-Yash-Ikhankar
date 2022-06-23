@@ -1,9 +1,18 @@
 header{
   text-align: center;
 }
-.loreum{
-  width: 200px;
+p .lorem{
+ width: 200px;
 }
 form{
   width: 100px;
+}
+.submit:hover
+{
+background-color: aqua;
+transition: 0.7s;
+border-color: aqua;
+}
+#main-artical{
+  
 }
