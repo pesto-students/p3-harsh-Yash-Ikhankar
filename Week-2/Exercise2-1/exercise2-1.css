@@ -13,6 +13,17 @@ background-color: aqua;
 transition: 0.7s;
 border-color: aqua;
 }
-#main-artical{
-  
+ #container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article{
+ text-align: center;
+ width: 500px;
+}
+article p{
+  font-style: italic;
+  color: blue;
+
 }
