@@ -15,6 +15,10 @@ height: 100px;
 left: 0%;
 top: 0%;
 }
+.red:hover{
+  transform: rotate(90deg);
+  transition:3s;
+}
 .yellow{
   background-color: yellow;
   display: inline-block;
@@ -23,6 +27,10 @@ top: 0%;
   height: 100px;
   left: 50%;
   top: 0%;
+}
+.yellow:hover{
+  transform: rotate(90deg);
+  transition:3s;
 }
 .blue{
 background-color: blue;  
@@ -33,6 +41,10 @@ height: 100px;
 left:0%;
 top: 50%;
 }
+.blue:hover{
+  transform: rotate(90deg);
+  transition:3s;
+}
 .green{
 background-color: green;  
 display: inline-block;  
@@ -41,6 +53,10 @@ width: 100px;
 height: 100px;
 left:50%;
 top: 50%;
+}
+.green:hover{
+  transform: rotate(90deg);
+  transition:3s;
 }
 .main p{
 text-align: center;
