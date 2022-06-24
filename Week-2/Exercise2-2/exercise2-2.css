@@ -1,12 +1,48 @@
+.main{
+background-color: aquamarine;
+width: 200px;
+height: 200px;
+position: absolute;
+top: 200px;
+left: 500px;
+}
 .red{
 background-color: red;
+display: inline-block;
+position: absolute;
+width: 100px;
+height: 100px;
+left: 0%;
+top: 0%;
 }
 .yellow{
   background-color: yellow;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 0%;
 }
 .blue{
-background-color: blue;
+background-color: blue;  
+display: inline-block;
+position: absolute;
+width: 100px;
+height: 100px;
+left:0%;
+top: 50%;
 }
 .green{
-background-color: green;
+background-color: green;  
+display: inline-block;  
+position: absolute;
+width: 100px;
+height: 100px;
+left:50%;
+top: 50%;
+}
+.main p{
+text-align: center;
+margin-top: 75px;
 }
