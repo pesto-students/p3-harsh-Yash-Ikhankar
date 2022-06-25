@@ -2,9 +2,10 @@
 background-color: aquamarine;
 width: 200px;
 height: 200px;
-position: absolute;
+position:relative;
+display: flex;
 top: 200px;
-left: 500px;
+margin: auto;
 }
 .red{
 background-color: red;
@@ -15,12 +16,10 @@ height: 100px;
 left: 0%;
 top: 0%;
 }
-.red:hover{
+.main:hover .red{
 transform: rotate(90deg);
 transform-origin:top left;
 transition: transform 1s linear;
-width: 100px;
-height: 100px;
 }
 .yellow{
 background-color: yellow;
@@ -31,12 +30,10 @@ height: 100px;
 left: 50%;
 top: 0%;
 }
-.yellow:hover{
+.main:hover .yellow{
 transform: rotate(-90deg);
 transform-origin:top right;
 transition: transform 1s linear;
-width: 100px;
-height: 100px;
 }
 .blue{
 background-color: blue;  
@@ -47,12 +44,10 @@ height: 100px;
 left:0%;
 top: 50%;
 }
-.blue:hover{
+.main:hover .blue{
 transform: rotate(-90deg);
 transform-origin:bottom left;
 transition: transform 1s linear;
-width: 100px;
-height: 100px;
 }
 .green{
 background-color: green;  
@@ -63,14 +58,13 @@ height: 100px;
 left:50%;
 top: 50%;
 }
-.green:hover{
+.main:hover .green{
 transform: rotate(90deg);
 transform-origin:bottom right;
 transition: transform 1s linear;
-width: 100px;
-height: 100px;
 }
 p{ 
 text-align: center;
-margin-top: 75px;
+margin-top: 100px;
+margin-left: 100px;
 }
