@@ -16,21 +16,27 @@ left: 0%;
 top: 0%;
 }
 .red:hover{
-  transform: rotate(90deg);
-  transition:3s;
+transform: rotate(90deg);
+transform-origin:top left;
+transition: transform 1s linear;
+width: 100px;
+height: 100px;
 }
 .yellow{
-  background-color: yellow;
-  display: inline-block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 50%;
-  top: 0%;
+background-color: yellow;
+display: inline-block;
+position: absolute;
+width: 100px;
+height: 100px;
+left: 50%;
+top: 0%;
 }
 .yellow:hover{
-  transform: rotate(90deg);
-  transition:3s;
+transform: rotate(-90deg);
+transform-origin:top right;
+transition: transform 1s linear;
+width: 100px;
+height: 100px;
 }
 .blue{
 background-color: blue;  
@@ -42,8 +48,11 @@ left:0%;
 top: 50%;
 }
 .blue:hover{
-  transform: rotate(90deg);
-  transition:3s;
+transform: rotate(-90deg);
+transform-origin:bottom left;
+transition: transform 1s linear;
+width: 100px;
+height: 100px;
 }
 .green{
 background-color: green;  
@@ -55,10 +64,13 @@ left:50%;
 top: 50%;
 }
 .green:hover{
-  transform: rotate(90deg);
-  transition:3s;
+transform: rotate(90deg);
+transform-origin:bottom right;
+transition: transform 1s linear;
+width: 100px;
+height: 100px;
 }
-.main p{
+p{ 
 text-align: center;
 margin-top: 75px;
 }
