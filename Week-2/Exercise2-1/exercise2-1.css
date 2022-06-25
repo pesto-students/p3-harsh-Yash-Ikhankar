@@ -1,11 +1,15 @@
 header{
   text-align: center;
+  background-color: aqua;
 }
 p .lorem{
  width: 200px;
 }
 form{
   width: 100px;
+  background-color: #08ad2c;
+  padding-right: 70px ;
+  margin-left: 5px;
 }
 .submit:hover
 {
@@ -25,5 +29,4 @@ article{
 article p{
   font-style: italic;
   color: blue;
-
 }
