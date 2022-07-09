@@ -5,7 +5,13 @@ Person.prototype.initialize = function (name, age)
     this.age = age;
 }
 
-//TODO: create the class Teacher and a method teach
+var Teacher = function () { };
+Teacher.prototype = new Person();
+
+Teacher.prototype.teach = function (subject) {
+    console.log(this.name + " is now teaching " + subject);
+    console.log(this.name + " is of age " + this.age);
+}
 
 var him = new Teacher();
 him.initialize("Adam", 45);
