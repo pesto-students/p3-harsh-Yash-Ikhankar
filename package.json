@@ -1,0 +1,20 @@
+{
+  "name": "p3-harsh-yash-ikhankar",
+  "version": "1.0.0",
+  "description": "Welcome to Pesto assignments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesto-students/p3-harsh-Yash-Ikhankar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pesto-students/p3-harsh-Yash-Ikhankar/issues"
+  },
+  "homepage": "https://github.com/pesto-students/p3-harsh-Yash-Ikhankar#readme"
+}
