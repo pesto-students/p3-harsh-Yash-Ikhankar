@@ -11,5 +11,10 @@ const pairDiff = (nums, result) => {
 
 console.log(pairDiff([5, 10, 3, 2, 50, 80], 78));
 console.log(pairDiff([-10, 20], 30))
-/*time complexity - n(n)
-space complexity - 0(n)*/
+/*
+Output:-
+1
+1
+time complexity - n(n)
+space complexity - 0(n)
+*/

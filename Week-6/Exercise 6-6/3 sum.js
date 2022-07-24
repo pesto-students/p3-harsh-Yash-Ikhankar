@@ -24,5 +24,8 @@ var closestSum = function (nums, target) {
 
 console.log(closestSum([-1, 2, 1, -4], 1));
 
-/*time complexity = O(n^2)
-space complexity = O(1)*/
+/*
+Output:- 2
+time complexity = O(n^2)
+space complexity = O(1)
+*/
