@@ -1,0 +1,43 @@
+/* nav{
+  background-color: azure;
+} */
+li,a,button{
+  font-size: 18px;
+  color: #0e0e0d;
+  text-decoration: none;
+  background-color: azure;
+}
+.nav_container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* padding: 10px 10%; */
+}
+
+#nav_logo{
+  cursor: pointer;
+}
+
+.nav_link{
+  list-style: none;
+  /* background-color: azure; */
+}
+
+.nav_link li{
+  display: inline-block;
+  padding: 0px 30px;
+  
+}
+
+.nav_link li :hover{
+  color:red
+}
+
+.nav_container button{
+  background-color:crimson;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius: 10%;
+}
+

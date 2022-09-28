@@ -1,0 +1,28 @@
+.footer-container{
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 450px;
+  margin-top: 60px;
+}
+
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+/* .footer-container ul{
+  list-style: none;
+  
+} */
+.footer-col{
+  width:25%;
+  padding: 0px 15px;
+}
+.footer-col h4{
+  font-size: 15px;
+  color:blue;
+
+}
+.footer-col li :hover{
+  color:red
+}
